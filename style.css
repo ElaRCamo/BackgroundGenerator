@@ -1,0 +1,64 @@
+body {
+	font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, white , black); /* Standard syntax */
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3, button {
+	font: 900 1em 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+}
+
+button,input {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    color: #F1F4F2;
+    margin: 15px;
+    background-color: rgba(255, 255, 255, 0.2); /* Color de fondo con transparencia */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra del botón */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    letter-spacing: .5em;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.4); /* Color de fondo con mayor transparencia al pasar el cursor */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al pasar el cursor */
+}
+
+input {
+    padding: 3px 4px;
+    border-radius: 10px;
+    width: 60px; 
+    height: 40px;
+}
+
+.copy-btn{
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 15px;
+    color: rgba(0,0,0,.5);
+    letter-spacing: .1em;
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
